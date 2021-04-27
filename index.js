@@ -935,7 +935,7 @@ if (text.includes("placa"))
                  break
                  case 'bfield':
                 f = body.slice(7)
-                teks1 = f.split("|")[0[;
+                teks1 = f.split("|")[0];
                 teks2 = f.split("|")[1];
                 ak = await fetchJson(`https://restapi-exe.herokuapp.com/api/field?text=${teks1}&text2=${teks2}`)
                 x = await getBuffer(ak.result)
