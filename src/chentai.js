@@ -48,7 +48,6 @@ https://nhentai.net/g/272057/
 https://nhentai.net/g/272173/
 https://nhentai.net/g/272182/
 https://nhentai.net/g/272196/
-ht
 https://nhentai.net/g/272512/
 https://nhentai.net/g/271245/
 https://nhentai.net/g/271056/
@@ -491,6 +490,6 @@ https://nhentai.net/g/207432/ Watashi no Onii-chan 4,5
 https://nhentai.net/g/247574/ Watashi no Onii-chan Extra
 
 
-*CAUSS BOT* `
+* ☬デ❍多ቾ乙ቾ₦☬  BOT* `
 }
 exports.chentai = chentai

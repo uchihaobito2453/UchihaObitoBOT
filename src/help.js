@@ -1,27 +1,31 @@
 const help = (prefix) => {
 	return `
 <══════════════════════>
-      *CAUSS BOT*
+      *☬デ❍多ቾ乙ቾ₦☬  BOT*
  <══════════════════════>
-
-__█████████  ● ᏴϴͲ●ᎷᎬΝႮ●         
-__█▄█████▄█   *DONO*    : CAUSS
-__█▼▼▼▼▼█ 
-_██ᏴϴͲ Ꮩ3.8██▌ 
-__█▲▲▲▲▲█ 
-__█████████ 
-____██_____██
+    ● ᏴϴͲ●ᎷᎬΝႮ●         
+    *DONO*: ☬デ❍多ቾ乙ቾ₦☬ 
+ ╭╮╮╱▔▔▔▔╲╭╭╮ 
+ ╰╲╲▏▂╲╱▂▕╱╱╯
+ ┈┈╲▏▇▏▕▇▕╱┈┈
+ ┈┈╱╲▔▕▍▔╱╲┈┈ 
+ ╭╱╱ ▕╋╋╋╋▏╲╲╮
+  ╰╯╯┈╲▂▂╱┈╰╰
+  
+*WPP: wa.me/+558688275801*
+*YT: youtube.com/channel/UCIrqmPMH60G2afNmSrT_B0A*
+*Instagram: www.instagram.com/invites/contact/?i=1b5qm4hksk3ul&utm_content=lu6hizd*
 
 ┌─────────❶.❷────────
 ║〘 INFORMAÇÕES 〙
 ║
-╠🐉 *CAUSS BOT* 
-╠🐉 𝐃𝐎𝐍𝐎:  ⃬⃗CAUSS (base dark) 
-╠🐉 *wa.me/+5547992091566*
+╠🐉 *☬デ❍多ቾ乙ቾ₦☬  BOT* 
+╠🐉 𝐃𝐎𝐍𝐎:  ⃬⃗☬デ❍多ቾ乙ቾ₦☬  (base causs e dark) 
+╠🐉 *wa.me/+558688275801*
 ╠🐉 𝐒𝐓𝐀𝐓𝐔𝐒: ON
 ║
 ║
-╠══🐰〘 MENU 〙🐰══
+╠══🌀〘 MENU 〙🌀══
 ║
 ║🐊 *${prefix}figu*
 ║🐊 *${prefix}toimg*
@@ -35,7 +39,7 @@ ____██_____██
 ║🐊 *${prefix}wait [na legenda]*
 ║🐊 *${prefix}setprefix*
 ║
-╠══🐰〘 OUTROS 〙🐰══
+╠══🌀〘 OUTROS 〙🌀══
 ║
 ║🐊 *${prefix}linkgp*
 ║🐊 *${prefix}simih [1/0]*
@@ -70,7 +74,7 @@ ____██_____██
 ║🐊 *${prefix}marcar2*
 ║🐊 *${prefix}marcar3*
 ║
-╠══🐰〘 IMAGENS 〙🐰══
+╠══🌀〘 IMAGENS 〙🌀══
 ║
 ║🐊 *${prefix}loli* [off]
 ║🐊 *${prefix}loli1*
@@ -95,13 +99,13 @@ ____██_____██
 ║🐊 *${prefix}nsfwloli1*
 ║🐊 *${prefix}reislin*
 ║
-╠══🐰〘 INTELIGÊNCIA 〙🐰══
+╠══🌀〘 INTELIGÊNCIA 〙🌀══
 ║
 ║🐊 *${prefix}simih 1 (para ativar)*
 ║🐊 *${prefix}simih 0 (para desativar)*
 ║ *${prefix}simi (sua mensagem)*
 ║
-╠══🐰〘 EM PRODUÇÃO 〙🐰══
+╠══🌀〘 EM PRODUÇÃO 〙🌀══
 ║
 ║🐊 *${prefix}gado*
 ║🐊 *${prefix}dbz*
@@ -111,7 +115,7 @@ ____██_____██
 ║🐊 *${prefix}antinazismo
 ║🐊 *${prefix}it 1/0
 ║
-╠══🐰〘 SÓ PREMIUM 〙🐰══
+╠══🌀〘 SÓ PREMIUM 〙🌀══
 ║
 ║🐊 *${prefix}dado*
 ║🐊 *${prefix}cekvip*
@@ -128,7 +132,7 @@ ____██_____██
 ║🐊 *${prefix}destrava*
 ║🐊 *${prefix}gpessoa*
 ║
-╠══🐰〘 GRUPO 〙🐰══
+╠══🌀〘 GRUPO 〙🌀══
 ║
 ║🐊 *${prefix}banir*
 ║🐊 *${prefix}leveling [on/off]*
@@ -150,7 +154,7 @@ ____██_____██
 ║🐊 *${prefix}setdesc*
 ║🐊 *${prefix}bug [sua mensagem]*
 ║
-╠══🐰〘 ESPECIFICO DO BOT 〙🐰══
+╠══🌀〘 ESPECIFICO DO BOT 〙🌀══
 ║
 ║🐊 *${prefix}bug [sua mensagem]*
 ║🐊 *${prefix}clonar [@]*
@@ -165,7 +169,7 @@ ____██_____██
 ║🐊 *${prefix}desligar (so para o dono)*
 ║🐊 *${prefix}timer*
 ║
-╠══🐰〘 MAIS ALGUNS 〙🐰══
+╠══🌀〘 MAIS ALGUNS 〙🌀══
 ║
 ║🐊 *${prefix}neko*
 ║🐊 *${prefix}ttp [texto]*
@@ -190,7 +194,7 @@ ____██_____██
 ║🐊 *${prefix}kiss
 ║🐊 *${prefix}analise
 ║
-╠══🐰〘 COMANDOS DE VOZ 〙🐰══
+╠══🌀〘 COMANDOS DE VOZ 〙🌀══
 ║
 ║🐊 *${prefix}ola*
 ║🐊 *${prefix}bv*
@@ -202,8 +206,16 @@ ____██_____██
 ║🐊 *${prefix}beat1*
 ║🐊 *${prefix}glub*
 ║🐊 *${prefix}causs*
+║🐊 *${prefix}rapobito1*
+║🐊 *${prefix}rapobito2*
+║🐊 *${prefix}rapobito3*
+║🐊 *${prefix}uchihaisano*
+║🐊 *${prefix}intagivel*
+║🐊 *${prefix}rapdogohan*
+║🐊 *${prefix}zabuzavibe*
+║🐊 *${prefix}vibemeliodas*
 ║
-╠══🐰〘 OUTROS /2 〙🐰══
+╠══🌀〘 OUTROS /2 〙🌀══
 ║
 ║🐊 *${prefix}antilink [1/0]*
 ║🐊 *${prefix}brainly [pergunta]*
@@ -211,33 +223,42 @@ ____██_____██
 ║🐊 *${prefix}setnomebot*
 ║🐊 *${prefix}meme*
 ║
-╠══🐰〘 INTERATIVOS 〙🐰══
+╠══🌀〘 NOVOS DO BOT 〙🌀══
 ║
-╠══NOTA »
-║Mandar a msg sem o prefixo
-╠════════════════════
+║🐊 *${prefix}love*
+║🐊 *${prefix}flaming*
+║🐊 *${prefix}grafite*
+║🐊 *${prefix}smoke*
+║🐊 *${prefix}overwatch*
+║🐊 *${prefix}glow*
+║🐊 *${prefix}glitch*
+║🐊 *${prefix}coffee*
+║🐊 *${prefix}neon*
+║🐊 *${prefix}casal*
+║🐊 *${prefix}hentaitrap*
+║🐊 *${prefix}copo*
+║🐊 *${prefix}papel*
+║🐊 *${prefix}love2*
+║🐊 *${prefix}striking*
+║🐊 *${prefix}hpotter*
+║🐊 *${prefix}sky*
+║🐊 *${prefix}vintage*
+║🐊 *${prefix}romantic*
+║🐊 *${prefix}glowing*
+║🐊 *${prefix}wolf*
 ║
-║🐊 *bah*
-║🐊 *oii*
-║🐊 *bv*
-║🐊 *canta ai bot*
-║🐊 *grita*
-║🐊 *causs*
-║🐊 *gemidao*
-║🐊 *musica*
+╠══🌀〘 ꧁☬デ❍多ቾ乙ቾ₦☬꧂ NO CONTROLE 〙🌀══
 ║
-╠══🐰〘 CAUSS NO CONTROLE 〙🐰══
-║
-║ *NOME: CAUSS*
-║ *INSTA: animexx_png*
-║ *WPP: wa.me/+5547992091566*
-║ *YOUTUBE: https://youtube.com/c/caussZ*
+║ *NOME: ꧁☬デ❍多ቾ乙ቾ₦☬꧂*
+║ *WPP: wa.me/+558688275801*
+║ *YT: youtube.com/channel/UCIrqmPMH60G2afNmSrT_B0A*
+║ *Instagram: www.instagram.com/invites/contact/?i=1b5qm4hksk3ul&utm_content=lu6hizd*
 ║
 ║  *"base do lindo (DARK BOT 4.0)🐊🚩*
 ║  *"kiba não xereka"*
 ║  *Número do dark: wa.me/+5522996215481
 ║
-╚═〘 CAUSS BOT 〙`
+╚═〘 ꧁☬デ❍多ቾ乙ቾ₦☬꧂ BOT 〙`
 }
 
 exports.help = help

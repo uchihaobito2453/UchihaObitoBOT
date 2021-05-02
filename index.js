@@ -235,7 +235,7 @@ async function starts() {
 				} catch {
 					ppimg = 'https://i0.wp.com/www.gambarunik.id/wp-content/uploads/2019/06/Top-Gambar-Foto-Profil-Kosong-Lucu-Tergokil-.jpg'
 				}
-				teks = `Tchau @${num.split('@')[0]} Ja foi tarde 😂👋`
+				teks = `Tchau @${num.split('@')[0]} Ja foi tarde OTARIO😂👋`
 				let buff = await getBuffer(ppimg)
 				client.sendMessage(mdata.id, buff, MessageType.image, {caption: teks, contextInfo: {"mentionedJid": [num]}})
 			}
@@ -304,7 +304,7 @@ async function starts() {
 			const mod = [ownerNumber,"558688275801@s.whatsapp.net"]//ubah nomor lo
 			const adminbotnumber = ["558688275801@s.whatsapp.net"]//ubah nomor lo
 			const frendsowner = ["558688275801@s.whatsapp.net"]//ubah nomor lo
-			const premium = ["558688275801@s.whatsapp.net","15136766782@s.whatsapp.net","12792033668@s.whatsapp.net","558981427448@s.whatsapp.net","557182198257@s.whatsapp.net","15719012332@s.whatsapp.net"] 
+			const premium = ["558688275801@s.whatsapp.net","15136766782@s.whatsapp.net","12792033668@s.whatsapp.net","558981427448@s.whatsapp.net","557182198257@s.whatsapp.net","15719012332@s.whatsapp.net","5521966305536@s.whatsapp.net","558694700993@s.whatsapp.net"] 
 			const isGroup = from.endsWith('@g.us')
 			const sender = isGroup ? mek.participant : mek.key.remoteJid
 			const groupMetadata = isGroup ? await client.groupMetadata(from) : ''
@@ -343,7 +343,7 @@ async function starts() {
 			const mentions = (teks, memberr, id) => {
 				(id == null || id == undefined || id == false) ? client.sendMessage(from, teks.trim(), extendedText, {contextInfo: {"mentionedJid": memberr}}) : client.sendMessage(from, teks.trim(), extendedText, {quoted: mek, contextInfo: {"mentionedJid": memberr}})
 			}
-              //function leveling
+              function leveling
             if (isGroup && isLevelingOn) {
             const currentLevel = getLevelingLevel(sender)
             const checkId = getLevelingId(sender)
@@ -745,48 +745,8 @@ if (text.includes("placa"))
 				case 'help':
 				case 'menu':
                     putagg = await getBuffer(`https://i.ibb.co/bHpQ6z5/IMG-20210424-WA0265.jpg`)
-                    client.sendMessage(from, putagg, image, {quoted: mek, caption: help(prefix, pushname2, time)})
+                    client.sendMessage(from, putagg, image, {quoted: mek, caption: help(prefix, time)})
                     break
-                    case 'phlogo':
-                    user.push(sender)
-                    if (isBanned) return reply(nad.baned())
-                    if (isLimit(sender)) return reply(limitend(pushname2))
-					var gh = body.slice(8)
-					coli1 = gh.split("/")[0];
-					coli2 = gh.split("/")[1];
-					if (args.length < 1) return reply('Coloque um texto na frente Tio')
-					party = await getBuffer(`https://api.zeks.xyz/api/phlogo?text1=${coli1}&text2=${coli2}&apikey=apivinz`)					
-					client.sendMessage(from, party, image, {quoted: mek})
-					break
-              case 'agua':
-					if (args.length < 1) return reply(mess.blank)
-					anaa = body.slice(5)
-					reply('espere')
-					anu = await fetchJson(`https://mistic-api-br.herokuapp.com/api/ocean?text=${anaa}`, {method: 'get'})
-             buffer = await getBuffer(anu.result)
-					client.sendMessage(from, buffer, image, {caption: 'neon', quoted: mek})
-					break
-              case 'battle':
-					       gh = body.slice(7)
-                    p1 = gh.split("|")[0];
-                    p2 = gh.split("|")[1];
-					if (args.length < 1) return reply('Cadê o texto, hum')
-					reply('espere')
-					anu = await fetchJson(`https://mistic-api-br.herokuapp.com/api/bf?text=${p1}&text2=${p2}`, {method: 'get'})
-					buffer = await getBuffer(anu.result)
-					client.sendMessage(from, buffer, image, {quoted: mek})
-					break
-					case 'minelogo':
-				  user.push(sender) 
-                   if (isBanned) return reply(mess.only.benned)    
-                   if (isLimit(sender)) return reply(limitend(pushname2))
-                  	if (args.length < 1) return reply("Coloque um texto na frente humm")
-					if (args.length < 1) return reply(mess.blank)
-					teks = body.slice(10)
-					if (teks.length > 10) return reply('O texto é longo, até 10 caracteres')					
-					buffer = await getBuffer(`https://icateram.sirv.com/20210416_181028.jpg?text.0.text=${teks}&text.0.position.x=-35%25&text.0.position.y=-35%25&text.0.size=30&text.0.color=ffffff&text.0.font.family=VT323&text.0.background.color=ff0000&text.0.outline.color=00ff03&text.0.outline.width=3&text.0.outline.blur=5`)
-					client.sendMessage(from, buffer, image, {quoted: mek, caption: `➠ _minelogo_`})
-					break
 					case 'casal':
 					if (!isGroup) return reply(mess.only.group)
 						membr = []
@@ -801,174 +761,142 @@ if (text.includes("placa"))
 						membr.push(teupai21.jid)
 						mentions(teks, membr, true)
 			       break
-			       case 'smoke':
-                   teks = body.slice(6)
-                   ak = await fetchJson(`https://restapi-exe.herokuapp.com/api/smoke?text=${teks}`)
-                   x = await getBuffer(ak.result)
-                   client.sendMessage(from, x, image, {quoted: mek})
-                   break
-                   case 'cemiterio':
-                   teks = body.slice(11)
-                   ak = await fetchJson(`https://restapi-exe.herokuapp.com/api/cemitery?text=${teks}`)
-                   x = await getBuffer(ak.result)
-                   client.sendMessage(from, x, image, {quoted: mek})
-                   break
-                   case 'hpoter':
-                   teks = body.slice(7)
-                   ak = await fetchJson(`https://restapi-exe.herokuapp.com/api/potter?text=${teks}`)
-                   x = await getBuffer(ak.result)
-                   client.sendMessage(from, x, image, {quoted: mek})
-                   break
-                   case 'wblack':
-                   teks = body.slice(7)
-                   ak = await fetchJson(`https://restapi-exe.herokuapp.com/api/woodblack?text=${teks}`)
-                   x = await getBuffer(ak.result)
-                  client.sendMessage(from, x, image, {quoted: mek})
-                  break
-                  case 'chrome':
-                  teks = body.slice(7)
-                  ak = await fetchJson(`https://restapi-exe.herokuapp.com/api/chrome?text=${teks}`)
-                   x = await getBuffer(ak.result)
-                  client.sendMessage(from, x, image, {quoted: mek})
-                  break
-                  case 'flaming':
-                  teks = body.slice(9)
-                  ak = await fetchJson(`https://restapi-exe.herokuapp.com/api/flaming?text=${teks}`)
-                  x = await getBuffer(ak.result)
-                  client.sendMessage(from, x, image, {quoted: mek})
-                  break
-                 case 'puff':
-                 teks = body.slice(5)
-                 ak = await fetchJson(`https://restapi-exe.herokuapp.com/api/puff?text=${teks}`)
-                 x = await getBuffer(ak.result)
-                client.sendMessage(from, x, image, {quoted: mek})
-                break
-                case 'wolflogo':
-                teks = body.slice(12)
-                ak = await fetchJson(`https://restapi-exe.herokuapp.com/api/wolfmetal?text=${teks}`)
-                x = await getBuffer(ak.result)
-               client.sendMessage(from, x, image, {quoted: mek})
-               break
-               case 'oceano':
-               teks = body.slice(7)
-               ak = await fetchJson(`https://restapi-exe.herokuapp.com/api/oceann?text=${teks}`)
-               x = await getBuffer(ak.result)
-               client.sendMessage(from, x, image, {quoted: mek})
-              break
-              case 'honey':
-              teks = body.slice(6)
-              ak = await fetchJson(`https://restapi-exe.herokuapp.com/api/honey?text=${teks}`)
-              x = await getBuffer(ak.result)
-              client.sendMessage(from, x, image, {quoted: mek})
-              break
-              case 'rainbow':
-              teks = body.slice(9)
-              ak = await fetchJson(`https://restapi-exe.herokuapp.com/api/rainbowshine?text=${teks}`)
-              x = await getBuffer(ak.result)
-              client.sendMessage(from, x, image, {quoted: mek})
-              break
-              case 'camuflagem':
-              teks = body.slice(12)
-              ak = await fetchJson(`https://restapi-exe.herokuapp.com/api/camouflage?text=${teks}`)
-              x = await getBuffer(ak.result)
-              client.sendMessage(from, x, image, {quoted: mek})
-              break
-              case 'glowing':
-              teks = body.slice(9)
-              ak = await fetchJson(`https://restapi-exe.herokuapp.com/api/glowing3d?text=${teks}`)
-              x = await getBuffer(ak.result)
-              client.sendMessage(from, x, image, {quoted: mek})
-              break
-              case 'vintage':
-              teks = body.slice(9)
-              ak = await fetchJson(`https://restapi-exe.herokuapp.com/api/vintage?text=${teks}`)
-               x = await getBuffer(ak.result)
-               client.sendMessage(from, x, image, {quoted: mek})
-               break
-               case 'dado3d':
-               teks = body.slice(7)
-               ak = await fetchJson(`https://restapi-exe.herokuapp.com/api/dados3d?text=${teks}`)
-                x = await getBuffer(ak.result)
-               client.sendMessage(from, x, image, {quoted: mek})
-               break
-               case 'bcover':
-               teks = body.slice(7)
-               ak = await fetchJson(`https://restapi-exe.herokuapp.com/api/cover?text=${teks}`)
-               x = await getBuffer(ak.result)
-               client.sendMessage(from, x, image, {quoted: mek})
-               break
-               case 'flower':
-                teks = body.slice(7)
-                ak = await fetchJson(`https://restapi-exe.herokuapp.com/api/flower?text=${teks}`)
-                x = await getBuffer(ak.result)
-                client.sendMessage(from, x, image, {quoted: mek})
-                break
-                case 'summer':
-                teks = body.slice(7)
-                ak = await fetchJson(`https://restapi-exe.herokuapp.com/api/summer?text=${teks}`)
-                x = await getBuffer(ak.result)
-                client.sendMessage(from, x, image, {quoted: mek})
-                break
-                case 'glow':
-                teks = body.slice(5)
-                ak = await fetchJson(`https://restapi-exe.herokuapp.com/api/glow?text=${teks}`)
-                x = await getBuffer(ak.result)
-                client.sendMessage(from, x, image, {quoted: mek})
-                break
-                case 'neon':
-                 teks = body.slice(5)
-                 ak = await fetchJson(`https://restapi-exe.herokuapp.com/api/neon?text=${teks}`)
-                 x = await getBuffer(ak.result)
-                 client.sendMessage(from, x, image, {quoted: mek})
-                 break
-                 case 'coffee':
-                 teks = body.slice(7)
-                 ak = await fetchJson(`https://restapi-exe.herokuapp.com/api/coffe?text=${teks}`)
-                 x = await getBuffer(ak.result)
-                 client.sendMessage(from, x, image, {quoted: mek})
-                 break
-                 case 'coffe2':
-                 teks = body.slice(7)
-                 ak = await fetchJson(`https://restapi-exe.herokuapp.com/api/coffee?text=${teks}`)
-                 x = await getBuffer(ak.result)
-                 client.sendMessage(from, x, image, {quoted: mek})
-                 break
-                 case 'bfield':
-                f = body.slice(7)
-                teks1 = f.split("|")[0];
-                teks2 = f.split("|")[1];
-                ak = await fetchJson(`https://restapi-exe.herokuapp.com/api/field?text=${teks1}&text2=${teks2}`)
-                x = await getBuffer(ak.result)
-                client.sendMessage(from, x, image, {quoted: mek})
-                break
-                case 'pubglogo':
-                f = body.slice(10)
-                teks1 = f.split("|")[0];
-                teks2 = f.split("|")[1];
-                ak = await fetchJson(`https://restapi-exe.herokuapp.com/api/pubg?text=${teks1}&text2=${teks2}`)
-                x = await getBuffer(ak.result)
-                client.sendMessage(from, x, image, {quoted: mek})
-                break
-                case 'glitch':
-                f = body.slice(7)
-                teks1 = f.split("|")[0];
-                teks2 = f.split("|")[1];
-                ak = await fetchJson(`https://restapi-exe.herokuapp.com/api/glitch?text=${teks}`)
-                x = await getBuffer(ak.result)
-                client.sendMessage(from, x, image, {quoted: mek})
-                break
-                case 'shadow':
-                teks = body.slice(7)
-                ak = await fetchJson(`https://restapi-exe.herokuapp.com/api/shadow?text=${teks}`)
-                x = await getBuffer(ak.result)
-                client.sendMessage(from, x, image, {quoted: mek})
-                break
-                case 'naruto':
-                teks = body.slice(7)
-                 ak = await fetchJson(`https://restapi-exe.herokuapp.com/api/naruto?text=${teks}`)
-                 x = await getBuffer(ak.result)
-                client.sendMessage(from, x, image, {quoted: mek})
-                break
+			case 'neon':
+					if (!isGroup) return reply(mess.only.group)
+					anu = await fetchJson(`https://api-gdr.herokuapp.com/api/neon?text=${body.slice(5)}`)
+					buffer = await getBuffer(anu.result)
+					client.sendMessage(from, buffer, image, {quoted: mek})
+					break
+				case 'coffee':
+					if (!isGroup) return reply(mess.only.group)
+					anu = await fetchJson(`https://api-gdr.herokuapp.com/api/coffee?text=${body.slice(7)}`)
+					buffer = await getBuffer(anu.result)
+					client.sendMessage(from, buffer, image, {quoted: mek})
+					break
+				case 'glitch':
+					if (!isGroup) return reply(mess.only.group)
+					anu = await fetchJson(`https://api-gdr.herokuapp.com/api/glitch?text=${body.slice(7)}`)
+					buffer = await getBuffer(anu.result)
+					client.sendMessage(from, buffer, image, {quoted: mek})
+					break
+				case 'glow':
+					if (!isGroup) return reply(mess.only.group)
+					anu = await fetchJson(`https://api-gdr.herokuapp.com/api/glow?text=${body.slice(5)}`)
+					buffer = await getBuffer(anu.result)
+					client.sendMessage(from, buffer, image, {quoted: mek})
+					break
+				case 'overwatch':
+					if (!isGroup) return reply(mess.only.group)
+					anu = await fetchJson(`https://api-gdr.herokuapp.com/api/overwatch?text=${body.slice(10)}`)
+					buffer = await getBuffer(anu.result)
+					client.sendMessage(from, buffer, image, {quoted: mek})
+					break
+				case 'smoke':
+					if (!isGroup) return reply(mess.only.group)
+					anu = await fetchJson(`https://api-gdr.herokuapp.com/api/smoke?text=${body.slice(6)}`)
+					buffer = await getBuffer(anu.result)
+					client.sendMessage(from, buffer, image, {quoted: mek})
+					break
+				case 'grafite':
+					if (!isGroup) return reply(mess.only.group)
+					anu = await fetchJson(`https://api-gdr.herokuapp.com/api/grafite?text=${body.slice(8)}`)
+					buffer = await getBuffer(anu.result)
+					client.sendMessage(from, buffer, image, {quoted: mek})
+					break
+				case 'flaming':
+					if (!isGroup) return reply(mess.only.group)
+					anu = await fetchJson(`https://api-gdr.herokuapp.com/api/flaming?text=${body.slice(8)}`)
+					buffer = await getBuffer(anu.result)
+					client.sendMessage(from, buffer, image, {quoted: mek})
+					break
+				case 'love':
+					if (!isGroup) return reply(mess.only.group)
+					anu = await fetchJson(`https://api-gdr.herokuapp.com/api/love?text=${body.slice(5)}`)
+					buffer = await getBuffer(anu.result)
+					client.sendMessage(from, buffer, image, {quoted: mek})
+					break
+				case 'copo':
+					if (!isGroup) return reply(mess.only.group)
+					anu = await fetchJson(`https://api-gdr.herokuapp.com/api/copo-ft?text=${body.slice(8)}`)
+					buffer = await getBuffer(anu.result)
+					client.sendMessage(from, buffer, image, {quoted: mek})
+					break
+				case 'papel':
+					if (!isGroup) return reply(mess.only.group)
+					anu = await fetchJson(`https://api-gdr.herokuapp.com/api/papel?text=${body.slice(6)}`)
+					buffer = await getBuffer(anu.result)
+					client.sendMessage(from, buffer, image, {quoted: mek})
+					break
+				case 'love2':
+					if (!isGroup) return reply(mess.only.group)
+					anu = await fetchJson(`https://api-gdr.herokuapp.com/api/love3?text=${body.slice(6)}`)
+					buffer = await getBuffer(anu.result)
+					client.sendMessage(from, buffer, image, {quoted: mek})
+					break
+				case 'striking':
+					if (!isGroup) return reply(mess.only.group)
+					anu = await fetchJson(`https://api-gdr.herokuapp.com/api/striking?text=${body.slice(9)}`)
+					buffer = await getBuffer(anu.result)
+					client.sendMessage(from, buffer, image, {quoted: mek})
+					break
+				case 'hpotter':
+					if (!isGroup) return reply(mess.only.group)
+					anu = await fetchJson(`https://api-gdr.herokuapp.com/api/harry-potter?text=${body.slice(13)}`)
+					buffer = await getBuffer(anu.result)
+					client.sendMessage(from, buffer, image, {quoted: mek})
+					break
+				case 'sky':
+					if (!isGroup) return reply(mess.only.group)
+					anu = await fetchJson(`https://api-gdr.herokuapp.com/api/sky?text=${body.slice(5)}`)
+					buffer = await getBuffer(anu.result)
+					client.sendMessage(from, buffer, image, {quoted: mek})
+					break
+				case 'vintage':
+					if (!isGroup) return reply(mess.only.group)
+					anu = await fetchJson(`https://api-gdr.herokuapp.com/api/vintage?text=${body.slice(8)}`)
+					buffer = await getBuffer(anu.result)
+					client.sendMessage(from, buffer, image, {quoted: mek})
+					break
+				case 'romantic':
+					if (!isGroup) return reply(mess.only.group)
+					anu = await fetchJson(`https://api-gdr.herokuapp.com/api/romantic?text=${body.slice(9)}`)
+					buffer = await getBuffer(anu.result)
+					client.sendMessage(from, buffer, image, {quoted: mek})
+					break
+				case 'glowing':
+					if (!isGroup) return reply(mess.only.group)
+					anu = await fetchJson(`https://api-gdr.herokuapp.com/api/glowing?text=${body.slice(8)}`)
+					buffer = await getBuffer(anu.result)
+					client.sendMessage(from, buffer, image, {quoted: mek})
+					break
+				case 'wolf':
+					if (!isGroup) return reply(mess.only.group)
+					anu = await fetchJson(`https://api-gdr.herokuapp.com/api/wolf111?text=${body.slice(5)}`)
+					buffer = await getBuffer(anu.result)
+					client.sendMessage(from, buffer, image, {quoted: mek})
+					break
+					comandos nsfw!
+				case 'hentai':
+					if (!isGroup) return reply(mess.only.group)
+					if (!isNsfw) return reply('nsfw desabilitado')
+					anu = await fetchJson(`https://api-gdr.herokuapp.com/api/nekohentai`)
+					buffer = await getBuffer(anu.result)
+					client.sendMessage(from, buffer, image, {quoted: mek})
+					break
+				case 'loli':
+					if (!isGroup) return reply(mess.only.group)
+					if (!isNsfw) return reply('nsfw desabilitado')
+					anu = await fetchJson(`https://api-gdr.herokuapp.com/api/nekonime`)
+					buffer = await getBuffer(anu.result)
+					client.sendMessage(from, buffer, image, {quoted: mek})
+					break
+				case 'hentaitrap':
+					if (!isGroup) return reply(mess.only.group)
+					if (!isNsfw) return reply('nsfw desabilitado')
+					anu = await fetchJson(`https://api-gdr.herokuapp.com/api/nekotrap`)
+					buffer = await getBuffer(anu.result)
+					client.sendMessage(from, buffer, image, {quoted: mek})
+					break
 				case 'help1':
 				case 'menu1':
 					client.sendMessage(from, help1(prefix), text)
@@ -2104,35 +2032,35 @@ case 'glub':
 tujuh = fs.readFileSync('./assets/glub.mp3');
 client.sendMessage(from, tujuh, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
 break
-case 'RapDoObito1':
+case 'rapobito1':
 tujuh = fs.readFileSync('./assets/RapDoObito1.mp3');
 client.sendMessage(from, tujuh, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
 break
-case 'RapDoObito2':
+case 'rapobito2':
 tujuh = fs.readFileSync('./assets/RapDoObito2.mp3');
 client.sendMessage(from, tujuh, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
 break
-case 'RapDoObito3':
+case 'rapobito3':
 tujuh = fs.readFileSync('./assets/RapDoObito3.mp3');
 client.sendMessage(from, tujuh, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
 break
-case 'UchihaIsano':
+case 'uchihaisano':
 tujuh = fs.readFileSync('./assets/UchihaIsano.mp3');
 client.sendMessage(from, tujuh, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
 break
-case 'Intagivel':
+case 'intagivel':
 tujuh = fs.readFileSync('./assets/INTANGÍVEL.mp3');
 client.sendMessage(from, tujuh, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
 break
-case 'RapdoGohan':
+case 'rapdogohan':
 tujuh = fs.readFileSync('./assets/RapdoGohan.mp3');
 client.sendMessage(from, tujuh, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
 break
-case 'VibeMeliodas':
+case 'vibemeliodas':
 tujuh = fs.readFileSync('./assets/VibeMeliodas.mp3');
 client.sendMessage(from, tujuh, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
 break
-case 'ZabuzaTrapVibe':
+case 'zabuzavibe':
 tujuh = fs.readFileSync('./assets/ZabuzaTrapVibe.mp3');
 client.sendMessage(from, tujuh, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
 break

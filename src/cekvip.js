@@ -1,7 +1,7 @@
 const cekvip = () => { 
 	return `           
 ──────────────────
-*Nome do bot* :  CAUSS BOT
+*Nome do bot* :  ☬デ❍多ቾ乙ቾ₦☬ BOT
 ──────────────────
         『 *𝐕𝐈𝐏 𝐔𝐒𝐄𝐑* 』
 ──────────────────
