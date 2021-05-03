@@ -875,7 +875,6 @@ if (text.includes("placa"))
 					buffer = await getBuffer(anu.result)
 					client.sendMessage(from, buffer, image, {quoted: mek})
 					break
-					comandos nsfw!
 				case 'hentai':
 					if (!isGroup) return reply(mess.only.group)
 					if (!isNsfw) return reply('nsfw desabilitado')
