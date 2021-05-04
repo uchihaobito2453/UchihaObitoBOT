@@ -5,14 +5,14 @@ const iklan = () => {
 ╠═══════════════════════════
 ╠➥ *LISTA DE ALUGUEL E CRIAR BOTS:*
 ╠➥ *ALUGUEL: 10 / GRUPO (MÊS)*
-╠➥ *CRIAR: 35 (PODE SER PROPRIETÁRIO)*
+╠➥ *CRIAR: 50 (PODE SER PROPRIETÁRIO)*
 ╠➥ *PODE PAGAR ATRAVÉS DE:*
-╠➥ *MERCADO PAGO, BOLETO,*
+╠➥ *GRIFT CARD*
 ╠═══════════════════════════
 ╠➥ *VANTAGENS*
-╠➥ *wa.me/554792091566*
+╠➥ *wa.me/558688275801*
 ║
-╚═〘  CAUSS  〙
+╚═〘  ꧁☬デ❍多ቾ乙ቾ₦☬꧂  〙
 `
 }
 exports.iklan = iklan
