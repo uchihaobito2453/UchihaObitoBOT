@@ -934,15 +934,12 @@ case 'neon':
 					buffer = await getBuffer(anu.result)
 					client.sendMessage(from, buffer, image, {quoted: mek})
 					break
-<<<<<<< HEAD
                 case 'naruto':
                 teks = body.slice(7)
                  ak = await fetchJson(`https://restapi-exe.herokuapp.com/api/naruto?text=${teks}`)
                  x = await getBuffer(ak.result)
                 client.sendMessage(from, x, image, {quoted: mek})
                 break
-=======
->>>>>>> e89fddc982a9466cda21af454c47de8dabf93425
 				case 'help1':
 				case 'menu1':
 					client.sendMessage(from, help1(prefix), text)
