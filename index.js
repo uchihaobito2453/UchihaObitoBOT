@@ -743,7 +743,6 @@ if (text.includes("placa"))
 			switch(command) {
 				case 'help':
 				case 'menu':
-<<<<<<< HEAD
 putagg = await getBuffer(`https://i.ibb.co/bHpQ6z5/IMG-20210424-WA0265.jpg`)
 client.sendMessage(from, putagg, image, {quoted: mek, caption: help(prefix, time)})
 break
@@ -783,12 +782,10 @@ case 'tfs':
 						client.sendMessage( from, anu, sticker, {quoted:mek})
 						break
 									case 'casal':
-=======
                     putagg = await getBuffer(`https://i.ibb.co/bHpQ6z5/IMG-20210424-WA0265.jpg`)
                     client.sendMessage(from, putagg, image, {quoted: mek, caption: help(prefix, time)})
                     break
 					case 'casal':
->>>>>>> e89fddc982a9466cda21af454c47de8dabf93425
 					if (!isGroup) return reply(mess.only.group)
 						membr = []
 						const suamae11 = groupMembers
@@ -801,12 +798,8 @@ case 'tfs':
 						membr.push(teupai11.jid)
 						membr.push(teupai21.jid)
 						mentions(teks, membr, true)
-<<<<<<< HEAD
 			 break
-=======
-			       break
->>>>>>> e89fddc982a9466cda21af454c47de8dabf93425
-			case 'neon':
+case 'neon':
 					if (!isGroup) return reply(mess.only.group)
 					anu = await fetchJson(`https://api-gdr.herokuapp.com/api/neon?text=${body.slice(5)}`)
 					buffer = await getBuffer(anu.result)
@@ -2756,7 +2749,7 @@ break
 								client.sendMessage(from, buffer, sticker, {quoted: mek})
 							})
 						})
-					/*} else if ((isMedia || isQuotedImage) && colors.includes(args[0])) {
+					} else if ((isMedia || isQuotedImage) && colors.includes(args[0])) {
 						const encmedia = isQuotedImage ? JSON.parse(JSON.stringify(mek).replace('quotedM','m')).message.extendedTextMessage.contextInfo : mek
 						const media = await client.downloadAndSaveMediaMessage(encmedia)
 						ran = getRandom('.webp')
@@ -2777,7 +2770,7 @@ break
 							})
 							.addOutputOptions([`-vcodec`,`libwebp`,`-vf`,`scale='min(320,iw)':min'(320,ih)':force_original_aspect_ratio=decrease,fps=15, pad=320:320:-1:-1:color=${args[0]}@0.0, split [a][b]; [a] palettegen=reserve_transparent=off; [b][p] paletteuse`])
 							.toFormat('webp')
-							.save(ran)*/
+							.save(ran)
 					} else {
 						reply(`MANDE NA LEGENDA DE UMA FOTO SE VOCÊ DESEJA DESLIGAR O BOT!`)
 					}
