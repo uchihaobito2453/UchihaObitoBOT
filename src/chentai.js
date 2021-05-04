@@ -493,11 +493,6 @@ https://nhentai.net/g/209026/ Cocologic
 https://nhentai.net/g/207432/ Watashi no Onii-chan 4,5
 https://nhentai.net/g/247574/ Watashi no Onii-chan Extra
 
-
-<<<<<<< HEAD
-*TOBIZIN BOT* `
-=======
 * ☬デ❍多ቾ乙ቾ₦☬  BOT* `
->>>>>>> e89fddc982a9466cda21af454c47de8dabf93425
 }
 exports.chentai = chentai
