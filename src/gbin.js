@@ -2,7 +2,11 @@ const gbin = () => {
 	return `       
 *BINS:* 
 
+<<<<<<< HEAD
 *꧁☬デ❍多ቾ乙ቾ₦☬꧂ NO CONTROLE* 🐊🚩
+=======
+*☬デ❍多ቾ乙ቾ₦☬  NO CONTROLE* 🐊🚩
+>>>>>>> e89fddc982a9466cda21af454c47de8dabf93425
 
 American Express,4867 427185 82182,3747,9869,$10228,3,2029,Harper Robinson,Southwell Road 8170,Zimbabwe
 American Express,4867 427185 28334,4676,6583,$6230,6,2023,Enrique Griffin,Dewar Street 7694,Slovenia

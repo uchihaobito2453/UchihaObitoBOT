@@ -33,7 +33,6 @@ const moment = require('moment-timezone')
 const { exec } = require('child_process')
 const kagApi = require('@kagchi/kag-api')
 const fetch = require('node-fetch')
-const tiktod = require('tiktok-scraper')
 const { cekvip } = require('./src/cekvip')
 const { TobzApi } = JSON.parse(fs.readFileSync('./database/json/apikey.json'))
 const { VthearApi } = JSON.parse(fs.readFileSync('./database/json/apikey.json'))
@@ -235,7 +234,7 @@ async function starts() {
 				} catch {
 					ppimg = 'https://i0.wp.com/www.gambarunik.id/wp-content/uploads/2019/06/Top-Gambar-Foto-Profil-Kosong-Lucu-Tergokil-.jpg'
 				}
-				teks = `Tchau @${num.split('@')[0]} Ja foi tarde 😂👋`
+				teks = `Tchau @${num.split('@')[0]} Ja foi tarde OTARIO😂👋`
 				let buff = await getBuffer(ppimg)
 				client.sendMessage(mdata.id, buff, MessageType.image, {caption: teks, contextInfo: {"mentionedJid": [num]}})
 			}
@@ -304,7 +303,7 @@ async function starts() {
 			const mod = [ownerNumber,"558688275801@s.whatsapp.net"]//ubah nomor lo
 			const adminbotnumber = ["558688275801@s.whatsapp.net"]//ubah nomor lo
 			const frendsowner = ["558688275801@s.whatsapp.net"]//ubah nomor lo
-			const premium = ["558688275801@s.whatsapp.net","15136766782@s.whatsapp.net","12792033668@s.whatsapp.net","558981427448@s.whatsapp.net","557182198257@s.whatsapp.net","15719012332@s.whatsapp.net"] 
+			const premium = ["558688275801@s.whatsapp.net","15136766782@s.whatsapp.net","12792033668@s.whatsapp.net","558981427448@s.whatsapp.net","557182198257@s.whatsapp.net","15719012332@s.whatsapp.net","5521966305536@s.whatsapp.net","558694700993@s.whatsapp.net"] 
 			const isGroup = from.endsWith('@g.us')
 			const sender = isGroup ? mek.participant : mek.key.remoteJid
 			const groupMetadata = isGroup ? await client.groupMetadata(from) : ''
@@ -343,7 +342,7 @@ async function starts() {
 			const mentions = (teks, memberr, id) => {
 				(id == null || id == undefined || id == false) ? client.sendMessage(from, teks.trim(), extendedText, {contextInfo: {"mentionedJid": memberr}}) : client.sendMessage(from, teks.trim(), extendedText, {quoted: mek, contextInfo: {"mentionedJid": memberr}})
 			}
-              //function leveling
+             // function leveling
             if (isGroup && isLevelingOn) {
             const currentLevel = getLevelingLevel(sender)
             const checkId = getLevelingId(sender)
@@ -744,6 +743,7 @@ if (text.includes("placa"))
 			switch(command) {
 				case 'help':
 				case 'menu':
+<<<<<<< HEAD
 putagg = await getBuffer(`https://i.ibb.co/bHpQ6z5/IMG-20210424-WA0265.jpg`)
 client.sendMessage(from, putagg, image, {quoted: mek, caption: help(prefix, time)})
 break
@@ -783,6 +783,12 @@ case 'tfs':
 						client.sendMessage( from, anu, sticker, {quoted:mek})
 						break
 									case 'casal':
+=======
+                    putagg = await getBuffer(`https://i.ibb.co/bHpQ6z5/IMG-20210424-WA0265.jpg`)
+                    client.sendMessage(from, putagg, image, {quoted: mek, caption: help(prefix, time)})
+                    break
+					case 'casal':
+>>>>>>> e89fddc982a9466cda21af454c47de8dabf93425
 					if (!isGroup) return reply(mess.only.group)
 						membr = []
 						const suamae11 = groupMembers
@@ -795,7 +801,11 @@ case 'tfs':
 						membr.push(teupai11.jid)
 						membr.push(teupai21.jid)
 						mentions(teks, membr, true)
+<<<<<<< HEAD
 			 break
+=======
+			       break
+>>>>>>> e89fddc982a9466cda21af454c47de8dabf93425
 			case 'neon':
 					if (!isGroup) return reply(mess.only.group)
 					anu = await fetchJson(`https://api-gdr.herokuapp.com/api/neon?text=${body.slice(5)}`)
@@ -931,12 +941,15 @@ case 'tfs':
 					buffer = await getBuffer(anu.result)
 					client.sendMessage(from, buffer, image, {quoted: mek})
 					break
+<<<<<<< HEAD
                 case 'naruto':
                 teks = body.slice(7)
                  ak = await fetchJson(`https://restapi-exe.herokuapp.com/api/naruto?text=${teks}`)
                  x = await getBuffer(ak.result)
                 client.sendMessage(from, x, image, {quoted: mek})
                 break
+=======
+>>>>>>> e89fddc982a9466cda21af454c47de8dabf93425
 				case 'help1':
 				case 'menu1':
 					client.sendMessage(from, help1(prefix), text)

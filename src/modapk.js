@@ -149,7 +149,11 @@ https://realsht.mobi/iJQbj
 • 100 Font Picsay/Pixelab
 https://realsht.mobi/hrTdE
 
+<<<<<<< HEAD
 ꧁☬デ❍多ቾ乙ቾ₦☬꧂ NO CONTROLE 🐊🚩
+=======
+☬デ❍多ቾ乙ቾ₦☬ NO CONTROLE 🐊🚩
+>>>>>>> e89fddc982a9466cda21af454c47de8dabf93425
 `
 }
 exports.modapk = modapk

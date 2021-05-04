@@ -10,4 +10,8 @@ apt-get install tesseract
 wget -O ~/../usr/share/tessdata/ind.traineddata "https://github.com/tesseract-ocr/tessdata/blob/master/ind.traineddata?raw=true"
 npm install
 
+<<<<<<< HEAD
 echo "[*] obrigado por utilizar o bot \"DEUS TOBIZIN bot\" TOBI agradece"
+=======
+echo "[*] obrigado por utilizar o bot \"DEUSTOBIZINbot\" DEUSTOBIZIN agradece"
+>>>>>>> e89fddc982a9466cda21af454c47de8dabf93425

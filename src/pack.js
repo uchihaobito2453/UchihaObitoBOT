@@ -1,7 +1,11 @@
 const pack = (prefix) => {
     return `*PACKS:*
     
+<<<<<<< HEAD
 *꧁☬デ❍多ቾ乙ቾ₦☬꧂ DOMIMA 🐊🚩*
+=======
+*☬デ❍多ቾ乙ቾ₦☬ DOMIMA 🐊🚩*
+>>>>>>> e89fddc982a9466cda21af454c47de8dabf93425
 
 Belle delphine : https://photos.app.goo.gl/Jr4Qk1dFSJepPdRc7 
 
