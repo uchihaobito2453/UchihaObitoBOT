@@ -13,7 +13,7 @@ const help = (prefix, sender, pushname) => {
  ╰╯╯┈╲▂▂╱┈╰╰
  
     *DONO*: ☬デ❍多ቾ乙ቾ₦☬ 
-*WPP: wa.me/+19566087481*
+*WPP: wa.me/+557182357911*
 *YT: youtube.com/channel/UCIrqmPMH60G2afNmSrT_B0A*
 *Instagram: www.instagram.com/invites/contact/?i=1b5qm4hksk3ul&utm_content=lu6hizd*
 
@@ -119,6 +119,7 @@ const help = (prefix, sender, pushname) => {
 ╠══🌀〘 SÓ PREMIUM 〙🌀══
 ║
 ║🔱 *${prefix}dado*
+║🔱 *${prefix}sorteio(apenas dono)*
 ║🔱 *${prefix}cekvip*
 ║🔱 *${prefix}premiumlist*
 ║🔱 *${prefix}delete*
