@@ -1,7 +1,7 @@
 const daftarvip = (prefix) => { 
 	return `
 	
-*PREÇO DE LISTA VIP :*
+*PREÃ‡O DE LISTA VIP :*
 
 -GC. 10 > Acessar recursos ViP
 -GC. 20 > Recursos VIP + Insira o bot no seu grupo!
@@ -10,7 +10,7 @@ const daftarvip = (prefix) => {
 
 *Proprietario do bate-papo BOT :*
 
-_wa.me/19566087481 ou digite *${prefix}owner*_
+_wa.me/557182357911 ou digite *${prefix}owner*_
 
 *NOTA*
 
